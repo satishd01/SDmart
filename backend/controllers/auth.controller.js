@@ -80,6 +80,7 @@ export const login = async (req, res) => {
 		} else {
 			res.status(400).json({ message: "Invalid email or password" });
 		}
+		
 	} catch (error) {
 		console.log("Error in login controller", error.message);
 		res.status(500).json({ message: error.message });

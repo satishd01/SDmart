@@ -154,6 +154,9 @@ const SignUpPage = () => {
 					</p>
 				</div>
 			</motion.div>
+			<div className="flex items-center justify-center mt-10" >
+				<span ><a href="https://www.instagram.com/mr_s_a_t_y_a_14/ " className="text-green-500">devloped by satish donerao</a></span>
+			</div>
 		</div>
 	);
 };
